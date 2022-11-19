@@ -30,6 +30,17 @@ function sombraHeader() {
     }
 }
 
+const buttonTop = document.querySelector('.voltar')
+
+function voltarTop() {
+    if (window.scrollY >= 500) {
+        buttonTop.classList.add('show')
+    } else {
+        buttonTop.classList.remove('show')
+    }
+}
+
 window.addEventListener('scroll', function(){
     sombraHeader()
+    voltarTop()
 })

@@ -25,12 +25,12 @@
                     <li><a class="title" href="#home">Inícios</a></li>
                     <li><a class="title" href="#about">Sobre</a></li>
                     <li><a class="title" href="#services">Serviços</a></li>
-                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
-                    <li><a class="title" href="#contact">Contato</a></li>
+                    <li><a class="title" href="#depoimentos">Depoimentos</a></li>
+                    <li><a class="title" href="#contato">Contato</a></li>
                 </ul>
             </div>
-            <div class="toggle icon-menu">ABRIR</div>
-            <div class="toggle icon-close">FECHAR</div>
+            <div class="toggle icon-menu"><img src="./img/open-menu.png" alt=""></div>
+            <div class="toggle icon-close"><img src="./img/close-menu.png" alt=""></div>
         </nav>
     </header>
 
@@ -78,14 +78,17 @@
 
             <div class="cards grid">
                 <div class="card">
+                    <img src="./img/comb.png" alt="">
                     <h3 class="title">Terapia Capilar</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur magni, dicta alias id, eius distinctio velit voluptates praesentium consequatur impedit. Incidunt hic maxime a totam! Ad ipsa corporis perspiciatis?</p>
                 </div>
                 <div class="card">
+                    <img src="./img/salon.png" alt="">
                     <h3 class="title">Cortes</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ipsa doloribus veritatis quibusdam aspernatur ratione recusandae et accusantium labore nihil voluptates, sit magni quidem est, fuga a quis distinctio. Blanditiis.</p>
                 </div>
                 <div class="card">
+                    <img src="./img/hair-color.png" alt="">
                     <h3 class="title">Tratamentos</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus eos maxime, voluptatum, ut magnam aspernatur possimus expedita, obcaecati earum dolore officia ipsum? Aut iure quam minima quod voluptatum vel?</p>
                 </div>
@@ -93,36 +96,152 @@
 
         </div>
     </section>
-    
+
+    <div class="divider-1"></div>
+
     <section id="depoimentos">
-        <div class="container grid">
+        <div class="container">
+            <header>
+                <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+            </header>
+
+            <!-- Swiper -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">Slide 1</div>
-                  <div clrass="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  <div class="swiper-slide">Slide 4</div>
-                  <div class="swiper-slide">Slide 5</div>
-                  <div class="swiper-slide">Slide 6</div>
-                  <div class="swiper-slide">Slide 7</div>
-                  <div class="swiper-slide">Slide 8</div>
-                  <div class="swiper-slide">Slide 9</div>
+                    <div class="depoimento swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quos labore rerum eaque
+                                repellendus itaque culpa quidem dignissimos illo corporis nam commodi excepturi, iure
+                                eius adipisci sit voluptatum ea deserunt.
+                            </p>
+                            <cite>
+                                <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="">
+                                Marcos Aluk
+                            </cite>
+                        </blockquote>
+                    </div>
+
+                    <div class="depoimento swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quos labore rerum eaque
+                                repellendus itaque culpa quidem dignissimos illo corporis nam commodi excepturi, iure
+                                eius adipisci sit voluptatum ea deserunt.
+                            </p>
+                            <cite>
+                                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
+                                Sanuj Obak
+                            </cite>
+                        </blockquote>
+                    </div>
+
+                    <div class="depoimento swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quos labore rerum eaque
+                                repellendus itaque culpa quidem dignissimos illo corporis nam commodi excepturi, iure
+                                eius adipisci sit voluptatum ea deserunt.
+                            </p>
+                            <cite>
+                                <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                                Randola Silva
+                            </cite>
+                        </blockquote>
+                    </div>
+
+                    <div class="depoimento swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quos labore rerum eaque
+                                repellendus itaque culpa quidem dignissimos illo corporis nam commodi excepturi, iure
+                                eius adipisci sit voluptatum ea deserunt.
+                            </p>
+                            <cite>
+                                <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="">
+                                Nilson Izaias
+                            </cite>
+                        </blockquote>
+                    </div>
+
                 </div>
                 <div class="swiper-pagination"></div>
-              </div>
-        </div>
+            </div>
 
+        </div>
     </section>
+
+    <div class="divider-2"></div>
+
+    <section id="contato">
+        <div class="container grid">
+            <div class="text">
+                <h2>Entre em contato com a gente!</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+        <a class="button" target="_blank" href="https://api.whatsapp.com/send?phone=+5555998745632&text=Oi! Gostaria de agendar um horário!"> 
+            <img src="./img/whatsapp.png" alt="">
+             Entre em contato
+        </a>
+            </div>
+
+            <div class="links">
+                <ul class="grid">
+                <li><img src="./img/telefone.png" alt=""><p>55 9 8133-4598</p></li>
+                <li><img src="./img/local.png" alt=""><p>Rua das Quantas,543</p></li>
+                <li><img src="./img/email.png" alt=""><p>uji@sencbarber.com</p></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <footer>
+        <div class="container grid">
+            <div class="brand">
+                <a class="logo" href="#">Senac <span>Barber</span>.</a>
+                <p>Senac Barber - 2021.</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+
+    <div class="social grid">
+        <a href=""><img src="./img/instagram.png" alt=""></a>
+        <a href=""><img src="./img/facebook.png" alt=""></a>
+        <a href=""><img src="./img/youtube.png" alt=""></a>
+    </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="voltar" ><img src="img/up-arrow.png" alt=""></a>
+
 
     <script src="./js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
+
+
+     <!-- Initialize Swiper -->
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+            breakpoints: {
+                767: {
+                    slidesPerView: 2,
+                }
+            }
+        });
     </script>
 
 </body>
